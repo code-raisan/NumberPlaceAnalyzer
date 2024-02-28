@@ -49,10 +49,10 @@ const predictForCells = (mx, mx_rev, row_pointer, col_pointer) =>{
 /**
  * @description 指定されたマスの行(横)と列(縦)を見てそのマスのに入るであろう数値を推測する（複数の数値をもつ）
  * 
- * @param {*} matrix // 入力された行列
- * @param {*} matrix_reverse // 行列の縦横を入れ替えたもの
- * @param {*} pointer_row // 行(横)番号
- * @param {*} pointer_col // 列(縦)番号
+ * @param {*} matrix 入力された行列
+ * @param {*} matrix_reverse 行列の縦横を入れ替えたもの
+ * @param {*} pointer_row 行(横)番号
+ * @param {*} pointer_col 列(縦)番号
  * @returns {*} cell_possibility
  */
 const PredictByLine = (matrix, matrix_reverse, pointer_row, pointer_col) =>{
