@@ -1,13 +1,4 @@
 const view = (matrix) => matrix.map(row => row.map(cell => typeof cell === "number"?cell:cell.join(",")));
-const isEqualArray = function (array1, array2) {
-  var i = array1.length;
-  if (i != array2.length) return false;
-
-  while (i--) {
-    if (array1[i] !== array2[i]) return false;
-  }
-  return true;
-};
 
 /*const SheetMatrix = [
   [ 0, 9, 6, 0, 8, 2, 1, 4, 0 ],
