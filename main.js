@@ -1,3 +1,5 @@
+// ToDo: LINEに編集して送る
+
 const view = (matrix) => matrix.map(row => row.map(cell => typeof cell === "number"?cell:cell.join(",")));
 
 /*const SheetMatrix = [
